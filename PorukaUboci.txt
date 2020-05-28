@@ -1,18 +1,5 @@
 ///moj port je 3308 a tvoj 3306
 
-dodala moje kontrolere
-gost
-igrac
-moderator
-
-dodala model kategorija
-a moje metode ubacila u ostale
-promijenila naziv iz RezultatModel u RezultatiModel i stavila returntype object posto nije koristio niko prije mene ocigledno jer sam ja dodala svoju metodu
-
-dodala moje view
-van foldera stranice
-
-////////////////////////////////////////////
 TO DO:
 a) 
 prebaciti sve vezano za igraca u igrac kontroler tako da imamo 4 kontrolera

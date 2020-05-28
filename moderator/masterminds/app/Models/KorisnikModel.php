@@ -42,5 +42,15 @@ class KorisnikModel extends Model
     {
         return $this->where('password', $password)->findAll();
     }
+    public function postavi_tokanpassword($tokan, $id){
+        $data = ['password'=> $tokan];
+        $this->update($id, $data);
+    }
+    public function updatepassword($password1,$tokan){
+        $data = ['password'=> $password1];
+        $useri= $this->nadji_password($tokan);
+        $this->update($useri[0]->idKorisnika, $data);
+        
+    }
 
 }
