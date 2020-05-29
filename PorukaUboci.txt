@@ -25,3 +25,7 @@ email korisnika.ukuca username koji je vidio na rang listi i pomocu toga trazi u
 
 
 //opciono ako stignemo : moderator i administrator mijenjaju neki tekst u pitanjima/odgovorima u slucaju greske npr.
+
+
+//ispis pitanja moderatora ne ispisuje citav odgovora
+mozda do json objekta??
