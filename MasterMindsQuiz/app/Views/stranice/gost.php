@@ -18,8 +18,8 @@
                     <br>
                     <br>
                     <br>
-                    <img src="<?php echo base_url('slike/logo_master.png')?>" width='100%' >
-                </div>
+                    <img src="<?php echo base_url('slike/logo_master.png'); ?>" style = "width: '100%'; margin-top: 30px; " >
+                    </div>
                 <div class='col-sm-5 text-center '>
                     <br />    <br />  <br> <br />  <br> <br>
 
