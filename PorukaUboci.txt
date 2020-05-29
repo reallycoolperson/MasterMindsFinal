@@ -1,14 +1,27 @@
-///moj port je 3308 a tvoj 3306
+//TO DO:
 
-TO DO:
-a) 
-prebaciti sve vezano za igraca u igrac kontroler tako da imamo 4 kontrolera
+/prebaciti sve vezano za igraca u igrac kontroler tako da imamo 4 kontrolera
 gost (kod njega metoda koja pri logovanju prebacuje na drugog kontrolera)
 admin 
 moderator i
 igrac
 
-b) problem! tvoji modeli vracaju array a moji object (treba vidjeti sta je sa aninim?) nisam mijen
+/ problem! tvoji modeli vracaju array a moji object (treba vidjeti sta je sa aninim?) nisam mijen
 
-c) u tabeli korisnik ne treba atribut aktivan
+/ u tabeli korisnik ne treba atribut aktivan
 
+/submit kod logovanja je GET -> u linku pisu i username i password !!!!! PROMIJENITI !!!!!
+
+/obavijesti korisnika treba da unese username a ne email jer kako bi administrator znao
+email korisnika.ukuca username koji je vidio na rang listi i pomocu toga trazi u bazi email
+
+/dodati admina u bazu da bi mogao da se prijavi i odjavi jer odjava ne radi
+
+/ dodati u gornjem (desnom/lijevom) uglu bijelim slovima da se vidi ko je ulogovan iz sesije ?!
+
+/ostavljanje komentara prilikom odjave da li se pamti u bazi komentar?
+
+//ispis rezultata posle kviza i ispis tacnih i netacnih odgovora da zna igrac.
+
+
+//opciono ako stignemo : moderator i administrator mijenjaju neki tekst u pitanjima/odgovorima u slucaju greske npr.
