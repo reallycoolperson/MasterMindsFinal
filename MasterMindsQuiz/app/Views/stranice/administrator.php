@@ -16,7 +16,9 @@
 <div class='row'>
 <div class='col-sm-3'>
 <p id='par1' class ="glow" ></p>
+
 <br>  <br> <br>
+<img src="<?php echo base_url('slike/logo_master.png'); ?>" style = "width: '100%'; margin-top: 30px; " >
 </div>
 
 <div class='col-sm-6 text-center ' id='osnovni_meni'>
