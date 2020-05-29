@@ -13,7 +13,7 @@ class KomentarModel extends Model
 {
         protected $table      = 'komentar';
         protected $primaryKey = 'idKomentara';
-        protected $returnType = 'object';
+        protected $returnType = 'array';
 
         /**
           * dohvati_komentare funkcija koja dohvata odredjen broj komentara korisnika

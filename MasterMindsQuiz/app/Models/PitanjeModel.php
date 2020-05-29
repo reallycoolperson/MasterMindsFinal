@@ -29,7 +29,7 @@ class PitanjeModel extends Model
     public function izbrisipitanje($tekst)
     {
      $pitanje=$this->where('tekstPitanja',$tekst)->find();
-     $this->delete($pitanje->idPitanja);
+     $this->delete($pitanje['idPitanja']);
     }
 
 

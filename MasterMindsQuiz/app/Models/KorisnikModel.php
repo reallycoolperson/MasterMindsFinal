@@ -27,7 +27,7 @@ class KorisnikModel extends Model
       $row = $query->getRow();
       if($row!==null)
       {
-       return $row->idKorisnika;
+       return $row['idKorisnika'];
       }
       else return 0;
     }//end_max_korisnik_id

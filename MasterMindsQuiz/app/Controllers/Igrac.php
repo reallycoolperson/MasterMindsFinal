@@ -24,7 +24,7 @@ class Igrac extends BaseController {
     public function logout() {
         $this->session->destroy();
 
-        return redirect()->to(site_url('Gost/login'));
+        return redirect()->to(site_url('Home'));
     }
 
     ///////////////////////////////////////////ISTORIJA REZULTATA///////////////
@@ -79,7 +79,7 @@ $headers = "Reply-To: MasterMinds Oceans4 masterminds.kviz@gmail.com\r\n";
         if (!empty($moderatori)) {
             $tokan = rand(1000, 9999);
                 $kModel=new KorisnikModel();
-                $kModel->postavi_tokanpassword($tokan, $moderatori[0]->idKM);
+                $kModel->postavi_tokanpassword($tokan, $moderatori[0]['idKM']);
                 $message = "Molimo Vas da kliknete na ". base_url('Igrac/reset?tokan='). $tokan. " za promjenu lozinke. ";
                $this->emailSubmit($email, 'Promjena lozinke', $message,$moderatori[0]);
 
