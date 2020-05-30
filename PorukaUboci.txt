@@ -12,7 +12,6 @@ email korisnika. ukuca username koji je vidio na rang listi i pomocu toga trazi 
 9. ostavljanje komentara prilikom odjave da li se pamti u bazi komentar?
 13. ograniciti biografiju na broj karaktera kao u bazi +ograniciti korisnika da u registraciji samo pise slova za ime i prezime 
 14. provjeriti da li email postoji u igracu moderatoru igrac i zahtjev za moderatora (registracija)
-16. posle mijenjanja lozinke redirect na login 
 
 
 //Marija//

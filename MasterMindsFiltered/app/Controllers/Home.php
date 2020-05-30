@@ -370,7 +370,7 @@ class Home extends BaseController{
                 else{
                     $kModel= new KorisnikModel();
                     $kModel->updatepassword($password1,$tokan);
-                $this->prikaz("mod_novalozinka", ['notification'=>" Lozinka je promijenjena!"]);
+                $this->prikaz("login", []);
 
                 }
             }
