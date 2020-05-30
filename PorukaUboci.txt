@@ -2,35 +2,42 @@
 
 1. napisati komentare za sve klase metode promjenljive ...
 
-2. popuniti bazu preporukama za sve kategorije; u tabeli korisnik ne treba atribut aktivan; dodati admina u bazu da bi mogao da se prijavi i odjavi jer odjava ne radi
+2. popuniti bazu preporukama za sve kategorije; dodati admina u bazu da bi mogao da se prijavi i odjavi jer odjava ne radi
 
 3. prebaciti sve vezano za igraca u igrac kontroler tako da imamo 4 kontrolera
-gost (kod njega metoda koja pri logovanju prebacuje na drugog kontrolera)
+home (registracije)
 admin 
 moderator i
 igrac
-
-umjesto metoda u Home kontroleru prebaciti to u base controler
-da svi mozemo pozvati odjava() metodu npr.
+prebaciti u base controler da svi mozemo pozvati odjava() i npr. rang lista()
 
 4. provjeriti da li smo sve object modele prebacile u array i da li to u kodu radi sve kako treba
 
 5. filtere napraviti i provjeriti logovanje sesija kako radi
 
-6. submit kod logovanja je GET -> u linku pisu i username i password !!!!! PROMIJENITI !!!!!
+6. traziti maksimalan id umjesto brojanja pitanja (moderator dodaje pitanja)
 
 7.obavijesti korisnika treba da unese username a ne email jer kako bi administrator znao
-email korisnika.ukuca username koji je vidio na rang listi i pomocu toga trazi u bazi email
+email korisnika. ukuca username koji je vidio na rang listi i pomocu toga trazi u bazi email
 
 8. dodati u gornjem (desnom/lijevom) uglu bijelim slovima da se vidi ko je ulogovan iz sesije ?!
 
 9. ostavljanje komentara prilikom odjave da li se pamti u bazi komentar?
 
-10. ispis rezultata posle kviza i ispis tacnih odg plus motivacione i preporuke.
+10. ispis rezultata posle kviza i ispis tacnih odg plus motivacione i preporuke. 
 
 11. ispis pitanja moderatora ne ispisuje citav odgovora mozda do json objekta??
+brisanje pitanja 
 
 12. provjeriti ssu da li smo sve neuspjesne slucajeve uzele u obzir
+
+13. ograniciti biografiju na broj karaktera kao u bazi
+
+14. provjeriti da li email postoji u igracu moderatoru igrac i zahtjev za moderatora
+
+15. ograniciti da se takmicenje igra samo jednom dnevno dohvati danasnji datum i uporedi ga sa datumom iz moji rezultati
+
+16. posle mijenjanja lozinke redirect na login 
 
 -----------------------------------------------------------------------------------------------------------------------
 ane mijesaju pitanja u takmicenju i treningu da se ista ne ponavljaju
@@ -38,3 +45,5 @@ pamte u jednom nizu sva pitanja (da bismo ispisali tacne odgovore na kraju kviza
 pamte pitanja na koja je igrac dao pogresne odgovore da bismo na osnovu njih generisali preporuku
 -----------------------------------------------------------------------------------------------------------------------
 //opciono ako stignemo : moderator i administrator mijenjaju neki tekst u pitanjima/odgovorima u slucaju greske npr.
+// ograniciti korisnika da u registraciji samo pise slova za ime i prezime 
+//u tabeli korisnik ne treba atribut aktivan
