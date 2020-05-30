@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 30, 2020 at 11:59 PM
+-- Generation Time: May 31, 2020 at 01:03 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -273,7 +273,6 @@ INSERT INTO `pitanje` (`idPitanja`, `tekstPitanja`, `tacan`, `netacan1`, `netaca
 (9, 'Kako se zove žena koja je stekla status potencijalne ljubavi Sherlocka Holmesa:', 'Irene Adler', 'Mrs. Hudson', 'Molly Hooper', 'Mary Watson', 2, 1),
 (10, 'The Simpsons serija ima više od:', '600 epizoda', '700 epizoda', '800 epizoda', '900 epizoda', 2, 1),
 (11, 'Prijatelj Sherlock Holmesa je:', 'Dr John Watson', 'Mycroft', 'Dr Who', 'Dr House', 2, 1),
-(12, 'Kako se zovu decaci iz serije Stranger Things:\r\nJoe,Finn & Mark', 'Mike,Dustin,Lucas & Will', 'Finn,Will,Lucas', 'Will, Jacob,Caleb & Logan', 'Joe,Finn & Mark', 2, 1),
 (13, 'Serija u kojoj glumci nose maske Salvadora Dalija i crvene kombinezone:', 'La casa de papel', 'The Handmaids Tale', ' Black Mirror', 'Friends', 2, 1),
 (14, 'Serija koja prikazuje razvoj tehnologije i naše zavisnosti od nje kroz mračnu i opominjuću viziju budućnosti:', 'Black Mirror', 'The Handmaids Tale', 'Breaking Bad', 'Stranger Things', 2, 1),
 (15, 'Serija čija priča prati profesora hemije koji, usled teške bolesti, postaje nezaustavljivi proizvođač plave droge metamfetamina i zastrašujući narko bos:', 'Breaking bad', 'Narcos', 'Black Mirror', 'Stranger Things', 2, 1),
@@ -441,7 +440,9 @@ INSERT INTO `pitanje` (`idPitanja`, `tekstPitanja`, `tacan`, `netacan1`, `netaca
 (177, 'Obrazovanje gemula je tip bespolnog razmnožavanja koji se susreće kod:', 'sunđera', 'ameba', 'puževa', 'vodozemaca', 9, 8),
 (178, 'Koji od sljedećih nasljednih poremećaja može nastati kao rezultat nejednakog\r\ncrossing-over-a:', 'sindrom mačjeg plača', 'Edwards-ov sindrom', 'patuljast rast', 'neke od enzimopatija', 9, 8),
 (179, 'Kada se iz braka normalnih roditelja rodi sin daltonista moţe se zaključiti da je\r\nporemećaj nasljeđen:', 'od jednog od majčinih roditelja', 'od majčinog ili očevog oca', 'od jednog od očevih roditelja', 'od očevog oca', 9, 8),
-(180, 'Najmanju otpornost prema velikim boginjama pokazuju osobe:', 'A krvne grupe', 'B krvne grupe', '0 krvne grupe', 'AB krvne grupe', 9, 8);
+(180, 'Najmanju otpornost prema velikim boginjama pokazuju osobe:', 'A krvne grupe', 'B krvne grupe', '0 krvne grupe', 'AB krvne grupe', 9, 8),
+(181, 'Kako se zovu decaci iz serije Stranger Things:', 'lkjdas', 'lkj', 'lkj', 'jlk', 2, 1),
+(12, 'Kako se zovu decaci iz serije Stranger Things:', 'Mike,Dustin,Lucas & Will', 'Finn,Will,Lucas', 'Will, Jacob,Caleb & Logan', 'Joe,Finn & Mark', 2, 1);
 
 -- --------------------------------------------------------
 

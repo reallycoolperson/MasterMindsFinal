@@ -1,14 +1,7 @@
 //TO DO:
 
 //Martina//
-Kako se zovu decaci iz serije Stranger Things:
-Mike,Dustin,Lucas & Will
-Finn,Will,Lucas
-Will, Jacob,Caleb & Logan
-Joe,Finn & Mark
 
-7.obavijesti korisnika treba da unese username a ne email jer kako bi administrator znao
-email korisnika. ukuca username koji je vidio na rang listi i pomocu toga trazi u bazi email
 9. ostavljanje komentara prilikom odjave da li se pamti u bazi komentar?
 13. ograniciti biografiju na broj karaktera kao u bazi +ograniciti korisnika da u registraciji samo pise slova za ime i prezime 
 14. provjeriti da li email postoji u igracu moderatoru igrac i zahtjev za moderatora (registracija)
