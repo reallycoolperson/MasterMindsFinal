@@ -153,7 +153,7 @@ for($i = 0; $i<$uk; $i++)
 </tr>
 <tr align = "center">
 <td>
-<label id = "pitanje"> <font color = "white" style = "opacity: 2;"><i> <?php echo "{$pitanja[$i]->tacan}" ?></i> </font></label>
+<label id = "pitanje"> <font color = "white" style = "opacity: 2;"><i> <?php echo "{$pitanja[$i]->tekstPitanja}" ?></i> </font></label>
 </td>
 </tr>
 
