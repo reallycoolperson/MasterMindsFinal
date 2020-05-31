@@ -5,11 +5,14 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/stil.css'); ?>">
-
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script>
+
 
         $(document).ready(function(){
 
@@ -27,12 +30,28 @@
           });
 
 
+ $("a[id='odjavajq']").click(function(){
+                             var komentar = prompt("Ocenite nas!", "Komentar...");
+                            if ( komentar != null && komentar != "")
+                          {
+
+                                $.ajax({
+                                    url: "../../Igrac/odjava",
+                                    method: "post",
+                                    dataType: 'json',
+                                    data: {komentar : komentar},
+                                    error: function(ts) { alert(ts.responseText) },
+                                    success: function(data) {
+                                    alert(data);
+                                    }
+                                });
+                            }
+
+  });
+
+
         });
 
-        function ocijeni()
-        {
-         prompt("Ocenite nas!", "Komentar...");
-        }
         </script>
 
 
@@ -66,7 +85,8 @@
                     <a href='<?php echo base_url('Igrac/rang'); ?>' class='linkovi'>RANG LISTA</a>
                     <br>
                     <!--**************************************************************-->
-                    <a href ="<?= site_url("Home/odjava")?>" class='linkovi' onclick='ocijeni()'>ODJAVA</a>
+                    <a href ="<?= site_url("Igrac/odjava")?>" class='linkovi' id='odjavajq'>ODJAVA</a>
+
                     <br>
                 </div>
                 <div class='col-sm-5 text-center ' id='kategorije_meni'>

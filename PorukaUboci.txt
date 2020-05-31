@@ -1,13 +1,8 @@
+
+da li da napravimo neko pravilo kakva sifra treba da bude? min length max length??
+ako ima previse gresaka kod registracije  elementi izlaze iz crne pozadine gdje je velicina toga definisana
+
 //TO DO:
-
-//Martina//
-
-9. ostavljanje komentara prilikom odjave da li se pamti u bazi komentar?
-13. ograniciti biografiju na broj karaktera kao u bazi +ograniciti korisnika da u registraciji samo pise slova za ime i prezime 
-14. provjeriti da li email postoji u igracu moderatoru igrac i zahtjev za moderatora (registracija)
-
-
-//Marija//
 
 3. prebaciti sve vezano za igraca u igrac kontroler tako da imamo 4 kontrolera
 home (registracije)
@@ -35,3 +30,11 @@ pamte pitanja na koja je igrac dao pogresne odgovore da bismo na osnovu njih gen
 -----------------------------------------------------------------------------------------------------------------------
 //moderator i administrator mijenjaju neki tekst u pitanjima/odgovorima u slucaju greske npr.
 //u tabeli korisnik ne treba atribut aktivan
+
+
+////////////////////////
+
+ you should make the data you get from the user safe to put into a database, so that hackers can't use sql injection, so you should change line 2 to
+You'll probably also want to make sure that users can't add extra html, or even worse, extra javascript to your page. You can achieve this by adding an extra line before your mysql_query like this:
+
+$reason = mysql_real_escape_string(strip_tags($_POST['reason']));
