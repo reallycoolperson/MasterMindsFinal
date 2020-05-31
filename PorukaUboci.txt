@@ -24,9 +24,6 @@ brisanje pitanja
 15. ograniciti da se takmicenje igra samo jednom dnevno (dohvati danasnji datum i uporedi ga sa datumom iz moji rezultati)
 provjera kakav tekst ide u bazu 
 -----------------------------------------------------------------------------------------------------------------------
-ane mijesaju pitanja u takmicenju i treningu da se ista ne ponavljaju
-pamte u jednom nizu sva pitanja (da bismo ispisali tacne odgovore na kraju kviza)
-pamte pitanja na koja je igrac dao pogresne odgovore da bismo na osnovu njih generisali preporuku
 -----------------------------------------------------------------------------------------------------------------------
 //moderator i administrator mijenjaju neki tekst u pitanjima/odgovorima u slucaju greske npr.
 //u tabeli korisnik ne treba atribut aktivan
