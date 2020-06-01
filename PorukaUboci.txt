@@ -1,6 +1,6 @@
 
 da li da napravimo neko pravilo kakva sifra treba da bude? min length max length??
-ako ima previse gresaka kod registracije  elementi izlaze iz crne pozadine gdje je velicina toga definisana
+ako ima previse gresaka kod registracije  elementi izlaze iz crne pozadine gdje je velicina toga definisana !!!!BOLI_NAS_GUZICA_ZA_OVO
 
 //TO DO:
 
@@ -9,24 +9,24 @@ home (registracije)
 admin 
 moderator i
 igrac
-prebaciti u base controler da svi mozemo pozvati odjava() i npr. rang lista()
-4. provjeriti da li smo sve object modele prebacile u array i da li to u kodu radi sve kako treba
-5. filtere napraviti i provjeriti logovanje sesija kako radi
-8. dodati u gornjem (desnom/lijevom) uglu bijelim slovima da se vidi ko je ulogovan iz sesije ?!
-10. ispis rezultata posle kviza i ispis tacnih odg plus motivacione i preporuke. 
-11. ispis pitanja moderatora ne ispisuje citav odgovora mozda do json objekta??
+prebaciti u base controler da svi mozemo pozvati odjava() i npr. rang lista() !!!!!!!TICK
+4. provjeriti da li smo sve object modele prebacile u array i da li to u kodu radi sve kako treba !!!!TICK
+5. filtere napraviti i provjeriti logovanje sesija kako radi !!!!!!!TICK
+8. dodati u gornjem (desnom/lijevom) uglu bijelim slovima da se vidi ko je ulogovan iz sesije !!!!!!!!!!TICK
+10. ispis rezultata posle kviza i ispis tacnih odg plus motivacione i preporuke.  !!!!!!!!!TICK
+11. ispis pitanja moderatora ne ispisuje citav odgovora mozda do json objekta?? !!!!!!!TICK
 brisanje pitanja 
 
 
 //na kraju//
-1. napisati komentare za sve klase metode promjenljive ...
-12. provjeriti ssu da li smo sve neuspjesne slucajeve uzele u obzir
-15. ograniciti da se takmicenje igra samo jednom dnevno (dohvati danasnji datum i uporedi ga sa datumom iz moji rezultati)
-provjera kakav tekst ide u bazu 
+1. napisati komentare za sve klase metode promjenljive ...!!!!!!NOTDONE
+12. provjeriti ssu da li smo sve neuspjesne slucajeve uzele u obzir!!!!!!NOTDONE
+15. ograniciti da se takmicenje igra samo jednom dnevno (dohvati danasnji datum i uporedi ga sa datumom iz moji rezultati)!!!!!!!!!!TICK
+provjera kakav tekst ide u bazu  !!!!!!!!!!TICK_OSIM_SQL_INJECTION??
 -----------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------
-//moderator i administrator mijenjaju neki tekst u pitanjima/odgovorima u slucaju greske npr.
-//u tabeli korisnik ne treba atribut aktivan
+//moderator i administrator mijenjaju neki tekst u pitanjima/odgovorima u slucaju greske npr !!OPTIONALNOTDONE
+//u tabeli korisnik ne treba atribut aktivan !!!!!!!!TICK
 
 
 ////////////////////////
