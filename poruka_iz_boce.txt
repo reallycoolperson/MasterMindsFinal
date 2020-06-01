@@ -2,13 +2,10 @@
 2. ja moram za admina da kad resetuj poene resetujem i rezultate !!!!!!!!!!!!!!!TICK
 3. provjeriti d li takmicenje radi dobro ako ima manje od 10 pitanja u bazi, trening radi dobro, a trebalo bi da radi i takmicenje ali nisam provjeravala !!!!!!!!!!!!!!!TICK 
 4. smeta mi sto se svaki out kad se klikne na sledece pitanje osvjezava stranica, to bi nam mogli zamjeriti !!!!!!!!NOTDONE
-5. u igracu ne treba trenutnipoeni i aktivan jer je to u session, to treba maci
+5. u igracu ne treba trenutnipoeni i aktivan jer je to u session, to treba maci !!!!!!!!!TICK
 6. moramo dobro vidjeti sve moguce filtere,svaki put mi iskrsne jos nestoi !!!!!!imadovoljno
 
 
-film kategorija pitanje koliko filmova je napravio tomb raider ima dva puta dvojka 
+film kategorija pitanje koliko filmova je napravio tomb raider ima dva puta dvojka  !!!!!!!TICK
 meni sa kategorijama ima plava slova  !!!!!!TICK
 
-//ostalo jos bazu malo urediti
-
--->roger that
